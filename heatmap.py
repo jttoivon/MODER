@@ -94,7 +94,7 @@ def make_heatmap(data, drange, fmt, title="", outputfile="", fontsize=32.0):
     plt.xticks(fontsize=tickfontsize)
     ax.xaxis.set_ticks(np.arange(0,width,1))
     ax.set_xticklabels(["%i" % i for i in drange])
-    plt.tick_params(axis='both', which='both', bottom='off', top='off', right='off', left='off')
+    plt.tick_params(axis='both', which='both', bottom=False, top=False, right=False, left=False)
 
     # These lines will create grid in minor tick, that is, between cells
     ax.set_xticks(np.arange(-0.5, width, 1), minor=True);
