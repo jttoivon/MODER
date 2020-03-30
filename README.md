@@ -1,3 +1,7 @@
+Newer version is available
+==========================
+Go to https://github.com/jttoivon/moder2
+
 Installing and pre-requisities
 ==============================
 
