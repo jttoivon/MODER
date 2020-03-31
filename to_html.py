@@ -1442,7 +1442,7 @@ for i, cob_factor in enumerate(cob_factors):
         # Display the logos involved in the cob table
         f.write('<div id="factors">')
         index_set=set(cob_factor)  # If both indices are the same, then return just one
-        make_table_h(f, [logo_files[i] for i in index_set], [factors[i] for i in index_set], [monomer_titles[i] for i in index_set])
+        make_table_h(f, [logo_files[i] for i2 in index_set], [factors[i] for i3 in index_set], [monomer_titles[i] for i4 in index_set])
         f.write("</div>")
 
         f.write('<h3 class="tableheading">Observed Matrices</h3>\n')
